@@ -34,5 +34,16 @@ public class CollectionGenerics {
 		for(Object o : obj2) {
 			System.out.println(o);
 		}
+		List<Integer> obj3 = new ArrayList<>();
+		for(int i = 0;i<size;i++) {
+			int temp = s.nextInt();
+			obj3.add(i, temp);
+		}
+//		Cannot add any other data type other than integer cuz it is explicitly mentioned as integer.
+		
+		obj3.add(2,7);
+		for(Integer o : obj3) {
+			System.out.println(o);
+		}
 	}
 }
