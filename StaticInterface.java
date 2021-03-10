@@ -11,6 +11,10 @@ class StatDemo implements StaticInter{
 //		num =9;
 		
 //		by default any variable declare inside interface becomes a FINAL variable.
+		
+//		public void show() {
+//			
+//		}
 	}
 }
 

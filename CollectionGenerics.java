@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Scanner;
@@ -42,6 +43,14 @@ public class CollectionGenerics {
 //		Cannot add any other data type other than integer cuz it is explicitly mentioned as integer.
 		
 		obj3.add(2,7);
+		for(Integer o : obj3) {
+			System.out.println(o);
+		}
+		System.out.println("--------");
+//		Sorting
+		Collections.sort(obj3);
+		Collections.reverse(obj3);
+		Collections.shuffle(obj3);
 		for(Integer o : obj3) {
 			System.out.println(o);
 		}

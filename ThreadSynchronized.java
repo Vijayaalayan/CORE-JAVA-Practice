@@ -1,6 +1,8 @@
 
 class Counter{
 	int count;
+//	We use synchronized to run when t1 perform t2 to stop and t1 perform t2 to stop.
+	
 	public synchronized void increment() {
 		count++;
 	}
